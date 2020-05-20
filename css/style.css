@@ -4,3 +4,22 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+
+  .img-select-container{
+    position: relative;
+    height: "1080px";
+  }
+
+  .img-select-img{
+    position: absolute;
+    height: auto;
+    width: auto;
+    
+  }
+
+  .img-select-img canvas{
+    display: block;
+    /*vertical-align: middle;*/
+  }
+
