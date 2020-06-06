@@ -4,7 +4,10 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
+/*
+button{
+  position: relative;
+}*/
 
   .img-select-container{
     position: relative;
@@ -21,5 +24,15 @@ html {
   .img-select-img canvas{
     display: block;
     /*vertical-align: middle;*/
+  }
+
+  .owl-carousel {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+  }
+  
+  .responsive{
+    width: 98%;
+    height: auto;
   }
 

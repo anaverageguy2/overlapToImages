@@ -2,22 +2,34 @@
 <html>
     <head>
         <title>Selected region vanishes</title>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.Jcrop.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://jcrop-cdn.tapmodo.com/v0.9.12/js/jquery.Jcrop.min.js"></script>
+        <link rel="stylesheet" href="http://jcrop-cdn.tapmodo.com/v0.9.12/css/jquery.Jcrop.css" type="text/css" />
         <script src="js/script.js"></script>
-        <link rel="stylesheet" href="css/jquery.Jcrop.css" type="text/css" />
+        
         <link rel="stylesheet" href="css/style.css" >
     </head>
 
     <body>
+        <div>
+            <img src="images/flower.jpg"   class="responsive">
+            <h1>TExt here</h1>
+        </div>
         <div class="img-select-container">
             <div class="img-select-img">
-                <canvas id="canvas1" width="1920" height="1080"></canvas>
-            </div>
+                <img src="images/flower.jpg"  class=responsive id="target1">
+            </div> 
             <div class="img-select-img img-behind" >
-                <canvas id="canvas2" width="1920" height="1080"></canvas>
+                <canvas id="canvas2"></canvas>
             </div>
         </div>
+        <img src="images/invisible.png" class="responsive">
+        <h1>It works</h1>
+        <div>
+            <img src="images/flower.jpg" class="responsive" >
+        </div>
+
+        <canvas id="canvas3"></canvas>
     </body>
 </html>
 
