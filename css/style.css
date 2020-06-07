@@ -1,9 +1,4 @@
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+
 /*
 button{
   position: relative;
@@ -11,7 +6,7 @@ button{
 
   .img-select-container{
     position: relative;
-    height: "1080px";
+    height:auto;
   }
 
   .img-select-img{
@@ -19,16 +14,6 @@ button{
     height: auto;
     width: auto;
     
-  }
-
-  .img-select-img canvas{
-    display: block;
-    /*vertical-align: middle;*/
-  }
-
-  .owl-carousel {
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
   }
   
   .responsive{
